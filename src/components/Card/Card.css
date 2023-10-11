@@ -16,6 +16,7 @@
     width: 250px;
     border-radius: 10px;
     box-shadow: 2px 2px 5px 5px violet;
+    margin: 10px;
 }
 .cards-container:hover{
     cursor: pointer;

@@ -8,5 +8,9 @@
     font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    color: blueviolet;
+    color:black;
+}
+.main-img{
+    min-width: 225vh;
+    height: 500px;
 }

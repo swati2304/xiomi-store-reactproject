@@ -8,11 +8,15 @@ import Tablet from './../../views/Laptop/img/tab-4.jpeg'
 import Tab from './../../views/Laptop/img/tab-6.jpeg'
 import ImgTab from './../../views/Laptop/img/tab-7.jpeg'
 import ImgTabs from './../../views/Laptop/img/tab-1.jpeg'
+import MainImg from './../../views/Laptop/img/8.jpeg'
+import ImageOfLaptop from './../../views/Laptop/img/laptop-2.jpeg'
+
 
 
 function Laptop({img}) {
   return (
     <div>
+      <img src={MainImg} className='main-img'/>
       <h1 className='main-title'>Tablets </h1>
       <div className='container'>
       <Card img={ImgTablet} price={9999} name="xiomi Mi pad post Gallery"/>
@@ -28,6 +32,16 @@ function Laptop({img}) {
       <Card img={ImgTab} price={24999} name="The Best xiomi Tablet"/>
       <Card img={ImgTabs} price={24999} name="The Best xiomi Tablet"/>
       </div>
+      <h1 className='main-title'>Laptops </h1>
+      <div className='container'>
+      <Card img={ImageOfLaptop} price={75000} name="xiomi NoteBook pro 11"/>
+      <Card img={Img} price={15999} name="xiomi Mi pad 6"/>
+      <Card img={Images} price={22999} name="xiomi Mi pad 5 Review"/>
+      <Card img={Tablet} price={8599} name="xiomi Mi pad 6 pro 11"/>
+      </div>
+      <br/>
+      <br/>
+      <br/>
     </div>
   )
 }
