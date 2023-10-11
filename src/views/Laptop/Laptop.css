@@ -2,4 +2,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    
+}
+.main-title{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: blueviolet;
 }
