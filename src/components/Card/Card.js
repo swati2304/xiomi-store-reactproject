@@ -1,12 +1,13 @@
 import React, {useState} from "react";
 import "./Card.css"
 
-function Card({img, price, title}){
+function Card({img, price, name}){
   return(
     <div className="cards-container">
-      <h2 className="title">{title}</h2>
-      <img src={img} className="laptop-images"/>
-      <p>{price}</p>
+      <img src={img} className="tablet-images"/>
+      <p className="description">{name}</p>
+      <p className="description-1">{price}/-</p>
+      <button className="btn-1">Buy Now</button>
     </div>
   )
 }

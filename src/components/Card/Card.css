@@ -1,6 +1,6 @@
-.laptop-images{
-    height: 200px;
-    width: 250px;
+.tablet-images{
+    height: 320px;
+    width: 220px;
     margin: 5px;
     padding: 5px;
     cursor: pointer;
@@ -13,13 +13,35 @@
     text-align: center;
     background-color: aliceblue;
     height: 500px;
-    width: 350px;
+    width: 250px;
     border-radius: 10px;
     box-shadow: 2px 2px 5px 5px violet;
 }
 .cards-container:hover{
     cursor: pointer;
     transition: 0.3s;
-    transform: translateY(-25px);
     border-radius: 20px;
+    transform: translateY(20px);
+}
+.description{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 2px;
+    padding: 5px;
+}
+.description-1{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 2px;
+    padding: 5px;
+}
+.btn-1{
+    cursor: pointer;
+    background-color: black;
+    border-radius: 10px;
+    color: aliceblue;
+    width: 180px;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
 }
