@@ -8,6 +8,8 @@ import Signup from "./views/Signup/Signup"
 import Smartphone from "./views/Smartphone/Smartphone"
 import Tv from "./views/Tv/Tv"
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 
 const router = createBrowserRouter([
