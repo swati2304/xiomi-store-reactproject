@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 import Home from "./views/Home/Home"
 import Contact from "./views/Contact/Contact"
 import Laptop from "./views/Laptop/Laptop"
@@ -8,6 +10,8 @@ import Signup from "./views/Signup/Signup"
 import Smartphone from "./views/Smartphone/Smartphone"
 import Tv from "./views/Tv/Tv"
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 
 const router = createBrowserRouter([
