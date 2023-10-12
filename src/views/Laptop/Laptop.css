@@ -1,7 +1,6 @@
 .container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
     
 }
 .main-title{
@@ -13,4 +12,5 @@
 .main-img{
     min-width: 225vh;
     height: 500px;
+
 }
