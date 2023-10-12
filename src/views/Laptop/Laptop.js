@@ -59,10 +59,10 @@ function Laptop({img}) {
       <h1 className='main-title'>Tablets </h1>
       <br/>
       <div className='container'>
-      <Card img={ImgTablet} price={9999} name="xiomi Mi Pad 5"/>
+      <Card img={ImgTablet} price={20999} name="xiomi Mi Pad 5"/>
       <Card img={Img} price={15999} name="xiomi Mi pad 6"/>
       <Card img={Images} price={22999} name="xiomi Mi pad 5 Review"/>
-      <Card img={Tablet} price={8599} name="xiomi Mi pad 6 pro 11"/>
+      <Card img={Tablet} price={18599} name="xiomi Mi pad 6 pro 11"/>
       </div>
       <br/>
       <br/>

@@ -6,7 +6,7 @@ function Card({img, price, name}){
     <div className="cards-container">
       <img src={img} className="tablet-images"/>
       <p className="description">{name}</p>
-      <p className="description-1">{price}/-</p>
+      <p className="description-1"> Just Rs. {price}/-</p>
       <button className="btn-1">Buy Now</button>
     </div>
   )
