@@ -1,13 +1,14 @@
 form {
     max-width: 400px;
-    margin: 0 auto;
-    background-color: rgb(215, 215, 231);
+    margin: 0;
     padding: 10px;
     font-size: 20px;
-    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    /* box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px; */
+    margin-left: 200px;
   }
   .heading{
-    font-size: 100px; 
+    font-size: 50px; 
+    margin-left: 150px;
   }
 
   label {
@@ -15,6 +16,15 @@ form {
     margin-bottom: 8px;
   }
   
+  .email-btn{
+    background-color: white;
+    color: black;
+    width:380px;
+    border-radius: 2px;
+    padding: 6px ;
+    margin-bottom: 15px;
+      }
+
   input,
   textarea {
     width: 100%;
@@ -25,16 +35,52 @@ form {
     box-sizing: border-box;
   }
   
-  button {
-    background-color: #4caf50;
+  .btn-2 {
+    background-color: black;
     color: white;
     padding: 10px 15px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    width: 130px;
   }
   
-  button:hover {
-    background-color: #45a049;
+ 
+  .speech{
+    width: 1200px;
+    font-size: 20px;
+    margin-left: 150px;
   }
-  
+  .btn{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    margin:10px;
+    cursor: pointer;
+  }
+ 
+  .form-control{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    border: none;
+  }
+
+
+  .form-control label{
+    position: absolute;
+    top: -11px;
+    left: 24px;
+    background-color: white;
+    padding: 0 10px;
+  }
+  .Container{
+    display: flex;
+  }
+  .imgofcontact{
+   height: 600px;
+   margin-left: 100px;
+  }
