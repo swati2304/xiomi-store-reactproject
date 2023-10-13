@@ -13,10 +13,11 @@
     text-align: center;
     background-color: aliceblue;
     height: 500px;
-    width: 250px;
+    width: 300px;
     border-radius: 10px;
     box-shadow: 2px 2px 5px 5px violet;
-    margin: 10px;
+    margin: 0px;
+    margin-left: 5px;
 }
 .cards-container:hover{
     cursor: pointer;
@@ -42,7 +43,7 @@
     border-radius: 10px;
     color: aliceblue;
     width: 180px;
-    height: 30px;
+    height: 40px;
     margin: 5px;
     padding: 5px;
 }
