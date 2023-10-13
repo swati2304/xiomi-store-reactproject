@@ -47,16 +47,7 @@
     margin: 5px;
     padding: 5px;
 }
-.card{
-    background-color: aqua;
-    border: 2px solid blue;
-    border-radius: 10px;
-    height: 250px;
-    width: 200px;
-    margin: 15px;
-    padding: 5px;
-    text-align: center;
-}
+
 .btn{
     border: none;
     background-color: blueviolet;
