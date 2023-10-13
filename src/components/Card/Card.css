@@ -37,7 +37,7 @@
     margin: 2px;
     padding: 5px;
 }
-.btn-1{
+.btn-2{
     cursor: pointer;
     background-color: black;
     border-radius: 10px;
@@ -46,4 +46,31 @@
     height: 40px;
     margin: 5px;
     padding: 5px;
+}
+.card{
+    background-color: aqua;
+    border: 2px solid blue;
+    border-radius: 10px;
+    height: 250px;
+    width: 200px;
+    margin: 15px;
+    padding: 5px;
+    text-align: center;
+}
+.btn{
+    border: none;
+    background-color: blueviolet;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    font-size: 15px;
+}
+
+.btn-1{
+    border: none;
+    background-color: blueviolet;
+    border-radius: 10px;
+    height: 30px;
+    width: 50px;
+    font-size: 10px;
 }

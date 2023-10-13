@@ -12,6 +12,7 @@ import Tv from "./views/Tv/Tv"
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+import ShowDetails from './views/ShowDetails/ShowDetails'
 
 
 const router = createBrowserRouter([
@@ -42,6 +43,10 @@ const router = createBrowserRouter([
       {
         path: "/tv",
         element: <Tv />,
+      },
+      {
+        path: "/laptop/showdetails/:id",
+        element: <ShowDetails />,
       },
   ]);
 

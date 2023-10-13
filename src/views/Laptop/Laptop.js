@@ -11,8 +11,8 @@ import ImgTabs from './../../views/Laptop/img/tab1.jpeg'
 import ImgTabs1 from './../../views/Laptop/img/tab-1.jpeg'
 import ImageOfLaptop from './../../views/Laptop/img/laptop-2.jpeg'
 import LapImage from './../../views/Laptop/img/lap.webp'
-import HomeImg1 from './../../views/Laptop/img/m-5.jpeg'
-import HomeImg2 from './../../views/Laptop/img/main-img-2.jpeg'
+import HomeImg1 from './../../views/Laptop/img/redmi-note-3.jpg'
+import HomeImg2 from './../../views/Laptop/img/poster1.jpg'
 import HomeImg3 from './../../views/Laptop/img/m-6.jpeg'
 import HomeImg4 from './../../views/Laptop/img/main-img-4.jpeg'
 import LapImage2 from './../../views/Laptop/img/laptop-4.jpeg'
@@ -21,15 +21,20 @@ import LapImage4 from './../../views/Laptop/img/lap-1.jpeg'
 import LapImage5 from './../../views/Laptop/img/lap-6.jpeg'
 import LapImage6 from './../../views/Laptop/img/lap-7.jpeg'
 import LapImage7 from './../../views/Laptop/img/lap-8.jpeg'
+import ShowDetails from "./../../views/ShowDetails/ShowDetails.JSON"
+console.log(ShowDetails)
 
 
-
-function Laptop({img}) {
+function Laptop() {
   return (
     <>
     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-
-<div class="carousel-inner">
+    <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="10000">
     <img src={HomeImg1} class="d-block w-100"/>
     </div>
