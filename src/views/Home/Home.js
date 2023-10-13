@@ -31,8 +31,6 @@ import GoogleImg from "./img/ICON/google-maps.png"
 import InstaImg from "./img/ICON/instagram (3).png"
 import Footer from '../../components/Footer/Footer'
 
-
-
 function Home() {
   return (
     <>
