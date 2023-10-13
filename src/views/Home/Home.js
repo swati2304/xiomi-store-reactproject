@@ -13,8 +13,6 @@ import TabImg3 from "./img/tab3.jpg"
 import { Link } from 'react-router-dom'
 import Footer from '../../components/Footer/Footer'
 
-
-
 function Home() {
   return (
     <>
