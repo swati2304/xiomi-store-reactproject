@@ -6,11 +6,19 @@ import HomeImg1 from "./img/Mi-Diwali-Offers.jpg"
 import HomeImg2 from "./img/diwali mi 2.jpg"
 import HomeImg3 from "./img/redmi-note-3.jpg"
 import HomeImg4 from "./img/xiaomi-diwali4.jpg"
-import HomeImg5 from "./img/diwali_sale5.webp"
 import TabImg  from "./img/tab1.jpeg"
 import TabImg2 from "./img/tab2.jpg"
 import TabImg3 from "./img/tab3.jpg"
 import { Link } from 'react-router-dom'
+import MobileImg from "./img/mobile 1.jpg"
+import MobileImg2 from "./img/mobile2.jpg"
+import MobileImg3 from "./img/mobile3.jpg"
+import LaptopImg from "./img/Laptop1.jpg"
+import LaptopImg2 from "./img/laptop2.jpg"
+import LaptopImg3 from "./img/laptop3.png"
+import TvImg from "./img/tv1.png"
+import TvImg2 from "./img/tv3.jpg"
+import TvImg3 from "./img/tv3.jpg"
 import Footer from '../../components/Footer/Footer'
 
 
@@ -19,7 +27,7 @@ function Home() {
   return (
     <>
        <Navbar/>
-      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
 
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="10000">
@@ -34,9 +42,9 @@ function Home() {
                     <div class="carousel-item">
                     <img src={HomeImg4} class="d-block w-100"/>
                     </div>
-                    <div class="carousel-item">
-                    <img src={HomeImg5} class="d-block w-100"/>
-                    </div>
+                    
+                    
+                    
 
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -48,18 +56,18 @@ function Home() {
                     <span class="visually-hidden">Next</span>
                 </button>
 
-       </div>
+        </div>
+
+        
 
                 <div className='Brand-Head'>
                   <h1>Tablets</h1>
                 </div>
 
-                  <Link to="/laptop" className="btn41-43 btn-42">
-                        View More
-                  </Link>
+                 
                   <br/>
 
-                  <div className="container text-center">
+               <div className="container text-center">
 
                 <div className="row">
                     <div className="col">
@@ -74,7 +82,6 @@ function Home() {
 
                             <div class="card-body">
                                
-                                <Link to="/laptop" class="card-link"><button>More</button></Link>
                             </div>
                         </div>
 
@@ -93,7 +100,6 @@ function Home() {
 
                             <div className="card-body">
                                
-                                <a href="#" className="card-link"><button>More</button></a>
                             </div>
                         </div>
 
@@ -101,27 +107,255 @@ function Home() {
 
                     <div className="col">
 
-                    <div class="card" index="width: 18rem;">
+                    <div className="card" index="width: 18rem;">
                             <img src={TabImg3} class="card-img-top" alt="..."/>
                             <div class="card-body">
                                 <h5 className="card-title">Redmi Pad</h5>
-                                <p className="card-text">MediaTek HelioG99 | 2k Resolution..</p>
+                                <p className="card-text">MediaTek HelioG99 | 2k Resolution..New Launch2023</p>
                                 <p className="card-text">From ₹14,499</p>
                             </div>
 
                             <div className="card-body">
                                
-                                <Link to="/laptop" className="card-link"><button>More</button></Link>
                             </div>
                         </div>
 
                      </div>
 
+              </div>
+           </div>
+          
+                    <Link to="/laptop" className="btn41-43 btn-42">
+                        View More
+                    </Link>
+                    <br/>
+
+           <div className='Brand-Head'>
+                  <h1>SmartPhones</h1>
                 </div>
-           </div> 
+
+                 
+                  <br/>
+             <div className="container text-center">
+
+                <div className="row">
+                    <div className="col">
+                        
+                        <div class="card" index="width: 18rem;">
+                            <img src={MobileImg} class="card-img-top" alt="..."/>
+                            <div class="card-body">
+                                <h5 class="card-title">Xiaomi 13 Pro</h5>
+                                <p class="card-text"> Bonus upto ₹5,000</p>
+                                <p className="card-text">From ₹74,999</p>
+                            </div>
+
+                            <div class="card-body">
+                               
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div className="col">
+                        
+                    <div class="card" index="width: 18rem;">
+                            <img src={MobileImg3} class="card-img-top" alt="..."/>
+                            <div class="card-body">
+                                <h5 class="card-title">Xiaomi 11i 5G</h5>
+                                <p class="card-text"> 120Hz Refresh Rate...</p>
+                                <p class="card-text">From ₹17,999 </p>
+
+                            </div>
+
+                            <div className="card-body">
+                               
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div className="col">
+
+                    <div className="card" index="width: 18rem;">
+                            <img src={MobileImg2} class="card-img-top" alt="..."/>
+                            <div class="card-body">
+                                <h5 className="card-title">Xiaomi 12 Pro</h5>
+                                <p className="card-text">5k Resolution..</p>
+                                <p className="card-text">From ₹39,999</p>
+                            </div>
+
+                            <div className="card-body">
+                               
+                            </div>
+                        </div>
+
+                     </div>
+
+              </div>
+           </div>
+               <br/>
+
+        <Link to="/laptop" className="btn41-43 btn-42">
+                 View More
+        </Link>
+
+        <br/>
+
+        <div className='Brand-Head'>
+                  <h1>Laptops</h1>
+                </div>
+
+                 
+                  <br/>
+             <div className="container text-center">
+
+                <div className="row">
+                    <div className="col">
+                        
+                        <div class="card" index="width: 18rem;">
+                            <img src={LaptopImg} class="card-img-top" alt="..."/>
+                            <div class="card-body">
+                                <h5 class="card-title">Xiaomi Notebook Pro 120G</h5>
+                                
+                                <p className="card-text">From ₹64,999</p>
+                            </div>
+
+                            <div class="card-body">
+                               
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div className="col">
+                        
+                    <div class="card" index="width: 18rem;">
+                            <img src={LaptopImg3} class="card-img-top" alt="..."/>
+                            <div class="card-body">
+                                <h5 class="card-title">Mi NoteBook Ultra Gray</h5>
+                                <p class="card-text">From ₹47,999 </p>
+
+                            </div>
+
+                            <div className="card-body">
+                               
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div className="col">
+
+                    <div className="card" index="width: 18rem;">
+                            <img src={LaptopImg2} class="card-img-top" alt="..."/>
+                            <div class="card-body">
+                                <h5 className="card-title">Mi NoteBook Pro</h5>
+                                <p className="card-text">From ₹45,999</p>
+                            
+                            </div>
+
+                            <div className="card-body">
+                               
+                            </div>
+                        </div>
+
+                     </div>
+
+              </div>
+           </div>
+               <br/>
+
+        <Link to="/laptop" className="btn41-43 btn-42">
+                 View More
+        </Link>
 
 
-           <Footer/>
+
+        <br/>
+
+<div className='Brand-Head'>
+          <h1>TV's</h1>
+        </div>
+
+         
+          <br/>
+     <div className="container text-center">
+
+        <div className="row">
+            <div className="col">
+                
+                <div class="card" index="width: 18rem;">
+                    <img src={TvImg} class="card-img-top" alt="..."/>
+                    <div class="card-body">
+                        <h5 class="card-title">Xiaomi Smart TV a43 (108 CM) </h5>
+                        <p class="card-text">38% off</p>
+                        <p className="card-text">From ₹21,999</p>
+                    </div>
+
+                    <div class="card-body">
+                       
+                    </div>
+                </div>
+
+            </div>
+
+            <div className="col">
+                
+            <div class="card" index="width: 18rem;">
+                    <img src={TvImg3} class="card-img-top" alt="..."/>
+                    <div class="card-body">
+                        <h5 class="card-title">Xiaomi Smart TV X Pro 1.38m (55)</h5>
+                        <p class="card-text">35% off </p>
+
+                        <p class="card-text">From ₹44,999 </p>
+
+                    </div>
+
+                    <div className="card-body">
+                       
+                    </div>
+                </div>
+
+            </div>
+
+            <div className="col">
+
+            <div className="card" index="width: 18rem;">
+                    <img src={TvImg2} class="card-img-top" alt="..."/>
+                    <div class="card-body">
+                        <h5 className="card-title">Xiaomi Smart TV X Pro 1.25m (50)</h5>
+                        <p class="card-text">33% off</p>
+
+                        <p className="card-text">From ₹39,999</p>
+                    
+                    </div>
+
+                    <div className="card-body">
+                       
+                    </div>
+                </div>
+
+             </div>
+
+      </div>
+   </div>
+       <br/>
+
+        <Link to="/laptop" className="btn41-43 btn-42">
+         View More
+        </Link>
+
+
+
+
+
+
+        
+           
+           
+
+
+        
 
 
                   
