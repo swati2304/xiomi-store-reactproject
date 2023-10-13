@@ -16,31 +16,4 @@ export default function Card({img, price, name, id}){
   )
 }
 
-export function Products({title, price, img, description}){
 
-  const [quantity, setQuantity] = useState(0);
-
-  function increment(){
-      setQuantity(quantity+1);
-  }
-
-  function decrement(){
-      setQuantity(quantity-1);
-  }
-
-  return(
-      <div className="card">
-          <h1>{title}</h1>
-          <h3>Rs.{price}/-</h3>
-          <br/>
-          <button onClick={increment} className="btn-1">+</button>
-          {quantity}
-          <button onClick={decrement} className="btn-1">-</button>
-          <br/>
-          <br/>
-          <br/>
-          <button className="btn">Buy Now</button>
-
-      </div>
-  )
-}

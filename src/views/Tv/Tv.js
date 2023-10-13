@@ -54,8 +54,8 @@ function Tv(){
     <h3 className="banner-heading">WATCH,PLAY,CELEBRATE<br/> WITH SMART TV's</h3>
    </div>
    <div className='tv-container'>
-      <Card img={Tv1} price={10499} name="xiomi Smart TV A 32 (80cm)"/>
-      <Card img={Tv2} price={61999} name="Xiaomi Smart TV X 65 (163.9 cm) 2023 Edition"/>
+      <Card img={Tv1} price={10499} del={54554} name="xiomi Smart TV A 32 (80cm)"/>
+      <Card img={Tv2} price={61999} del={4444} name="Xiaomi Smart TV X 65 (163.9 cm) 2023 Edition"/>
       <Card img={Tv3} price={35999} name="Xiomi Smart TV X 55 (138.8CM) 2023 Edition"/>
       <Card img={Tv4} price={30999} name="Xiomi Smart TV X 50 (125.7CM) 2023Edition"/>
       </div>
@@ -76,10 +76,12 @@ function Tv(){
         <p className="para-text">Your entertainment now knows no limits with fullscreen viewing encased<br/> in a gorgeous metal frame.</p>
         <img src={Smarttv} className="img-fluid mx-auto d-block" alt="..."/>
       </div>
-      <div>
-        <h2 className="heading">A Millionaire Display</h2>
+      <div className='containerforimgtext'>
+       <div className='textcontainertv'>
+       <h2 className="heading">A Millionaire Display</h2>
         <p className="para-text">Experience lifelike picture on a Full HD display with<br/> deeper colors thanks to a richer colour gamut capable<br/>of displaying over 16 million colours.</p>
-      <img src={Smarttv1} className="d-block float-end"alt="..."/>
+       </div>
+      <img src={Smarttv1}  alt="..."/>
       </div>
   </>
   );
