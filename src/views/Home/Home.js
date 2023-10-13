@@ -6,6 +6,12 @@ import HomeImg1 from "./img/Mi-Diwali-Offers.jpg"
 import HomeImg2 from "./img/diwali mi 2.jpg"
 import HomeImg3 from "./img/redmi-note-3.jpg"
 import HomeImg4 from "./img/xiaomi-diwali4.jpg"
+import HomeImg5 from "./img/image6.jpg"
+import HomeImg6 from "./img/image7.jpg"
+import HomeImg7 from "./img/image8.jpeg"
+import HomeImg8 from "./img/image9.jpg"
+import HomeImg9 from "./img/image10.jpg"
+import HomeImg10 from "./img/image5.jpg"
 import TabImg  from "./img/tab1.jpeg"
 import TabImg2 from "./img/tab2.jpg"
 import TabImg3 from "./img/tab3.jpg"
@@ -19,6 +25,10 @@ import LaptopImg3 from "./img/laptop3.png"
 import TvImg from "./img/tv1.png"
 import TvImg2 from "./img/tv3.jpg"
 import TvImg3 from "./img/tv3.jpg"
+import GitImg from "./img/ICON/github-sign.png"
+import GmailImg from "./img/ICON/gmail (1).png"
+import GoogleImg from "./img/ICON/google-maps.png"
+import InstaImg from "./img/ICON/instagram (3).png"
 import Footer from '../../components/Footer/Footer'
 
 
@@ -41,6 +51,24 @@ function Home() {
                     </div>
                     <div class="carousel-item">
                     <img src={HomeImg4} class="d-block w-100"/>
+                    </div>
+                    <div class="carousel-item">
+                    <img src={HomeImg5} class="d-block w-100"/>
+                    </div>
+                    <div class="carousel-item">
+                    <img src={HomeImg6} class="d-block w-100"/>
+                    </div>
+                    <div class="carousel-item">
+                    <img src={HomeImg7} class="d-block w-100"/>
+                    </div>
+                    <div class="carousel-item">
+                    <img src={HomeImg8} class="d-block w-100"/>
+                    </div>
+                    <div class="carousel-item">
+                    <img src={HomeImg9} class="d-block w-100"/>
+                    </div>
+                    <div class="carousel-item">
+                    <img src={HomeImg10} class="d-block w-100"/>
                     </div>
                     
                     
@@ -344,6 +372,30 @@ function Home() {
         <Link to="/laptop" className="btn41-43 btn-42">
          View More
         </Link>
+
+        <br/>
+
+        <section id="social-media">
+
+          <div class="container text-center">
+            <p>FIND US ON SOCIAL MEDIA</p>
+    
+            <div class="social-icons">
+
+
+              <a href="#"><img src={GmailImg}/></a>
+              <a href="https://github.com/kunaldec022002/xiomi-store-reactproject/tree/main"><img src={GitImg}/></a>
+              <a href="#"><img src={InstaImg}/></a>
+              <a href="https://www.google.com/maps/search/xiaomi+center+pune/@18.5749739,73.7710354,12z/data=!3m1!4b1?authuser=0&entry=ttu"><img src={GoogleImg}/></a>
+              
+
+              
+
+            </div>
+          </div>
+         </section>
+
+             <Footer/>
 
 
 
