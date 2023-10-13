@@ -24,3 +24,9 @@
     font-size: 20px;
     color: #0f1532;
 }
+.containerforimgtext{
+    display: flex;
+}
+.textcontainertv{
+    display:block;
+}
