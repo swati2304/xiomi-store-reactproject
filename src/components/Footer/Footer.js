@@ -1,46 +1,95 @@
-import React from "react";
+import "./Footer.css"
+import { Link } from 'react-router-dom'
+import MapImg from "../../views/Home/img/ICON/google-maps.png"
+import GmailImg from "../../views/Home/img/ICON/gmail (1).png"
+import ContactImg from "../../views/Home/img/ICON/telephone-call.png"
 
 
-const Footer = () => {
-    // Define the data for the footer
-    const description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
-    const title = "Lorem Ipsum";
+function Footer()
+{
   
-    const columns = [{
-      title: "Column 1",
-      resources: [{
-        name: "Item 1",
-        link: "/item1"
-      },{
-        name: "Item 2",
-        link: "/item2"
-      },{
-        name: "Item 3",
-        link: "/item3"
-      },{
-        name: "Item 4",
-        link: "/item4"
-      }]
-    },{
-      title: "Column 2",
-      resources: [{
-        name: "Item 5",
-        link: "/item5"
-      },{
-        name: "Item 6",
-        link: "/item6"
-      }]
-    },{
-      title: "Column 3",
-      resources: [{
-        name: "Item 7",
-        link: "/item7"
-      },{
-        name: "Item 8",
-        link: "/item8"
-      }]
-    }];
+  return(
+
+    <>
+
+<section id="footer">
+
+<div className="container">
+
+  <div className="row">
+
+    <div className="col-md-4 footer-box">
+      <p><b>Quick Links</b></p>
+      
+        <h5>
+          <Link to="/" className="footer-quick-link">Home</Link>
+        </h5>
+   
+   
+       <h5>
+        <Link to="/laptop" className="footer-quick-link">Laptop&Tablets</Link>
+        </h5>
+    
+
+   
+        <h5> 
+          <Link to="/smartphone"  className="footer-quick-link">Smartphones</Link>
+        </h5>
+    
+
+    
+      <h5> 
+        <Link to="/tv" className="footer-quick-link">TV</Link>
+      </h5> 
+
+      <h5> 
+        <Link to="/login" className="footer-quick-link">Login</Link>
+      </h5> 
+
+      <h5> 
+        <Link to="/signup" className="footer-quick-link">Signup</Link>
+      </h5> 
+ 
+
+    
+    </div>
+
+    <div className="col-md-4 footer-box">
+      <p><b>Address</b></p>
+      <p>
+        <img src={MapImg} className="direction"/>
+         Trade Centre,Banglore</p>
+      <p>
+        <img src={ContactImg}  className="direction"/>
+         +9110020210210</p>
+      <p>
+        <img src={GmailImg}  className="direction"/> Car_Collection500@gmail.com</p>
+    </div>
+
+    
+
+    <div className="col-md-4 footer-box">
+       <div className="Faq-text">
+       <p><b>Contact</b></p>
+       </div>
+      
+      <input type="email" placeholder="Enter email" className="form-control"/>
+      <input type="text" className="form-control" placeholder="Enter Name"  />
+      <button type="button" className="btn btn-primary" id="submit-btn">Submit</button>
+    </div>
+  </div>
+
+
+  <hr/>
   
-  }
+</div>
+</section>
+
+    
+    </>
+  )
   
-  export default Footer;
+}
+
+export default Footer
+          
