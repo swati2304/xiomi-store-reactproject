@@ -1,0 +1,14 @@
+.img-container{
+    display: block;
+    width: 100%;
+}
+.front-img{
+    width: 100%;
+    
+}
+.tv-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
