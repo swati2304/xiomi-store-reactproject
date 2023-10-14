@@ -38,8 +38,8 @@
     margin: 2px;
     padding: 5px;
 }
-.btn-1{
-    display: inline-block;
+.btnn-1{
+    display: inline;
     cursor: pointer;
     background-color: black;
     border-radius: 10px;
@@ -49,10 +49,11 @@
     margin-top: 20px;
     
 }
-.btn-2{
+.btnn-2{
     background-color: white;
     color: black;
     border: 1px solid;
+    display: inline;
 }
 .delprice{
     font-size: 15px;

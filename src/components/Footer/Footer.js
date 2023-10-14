@@ -78,8 +78,6 @@ function Footer()
       <button type="button" className="btn btn-primary" id="submit-btn">Submit</button>
     </div>
   </div>
-
-
   <hr/>
   
 </div>

@@ -5,7 +5,7 @@
   align-items: center;
   padding: 100px;
 }
-.container{
+.containerforlogin{
   display:inline-block;
   background-color: rgba(245, 245, 220, 0.685);
   position: relative ;

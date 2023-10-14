@@ -37,3 +37,10 @@
     margin: 2px;
     padding: 5px;
 }
+
+.lifestylecardcontainer{
+    height: 500px;
+    width: 400px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+}

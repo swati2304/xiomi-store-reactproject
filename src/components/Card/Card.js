@@ -17,3 +17,18 @@ export default function Card({img, price, name, id}){
 }
 
 
+
+
+export  function Lifestylecard({img,title,price,description,btn}) {
+  return (
+    <div className="lifestylecardcontainer">
+
+      <img src={img}/>
+      <h1>{title}</h1>
+      <p>{price}</p>
+      <p>{description}</p>
+       <button>{btn}</button>
+      
+    </div>
+  )
+}
