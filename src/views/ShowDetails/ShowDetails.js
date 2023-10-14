@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import detail from "./../Laptop/Laptop.json";
+import "./ShowDetails.css"
 
 export default function ShowDetails() {
     const { id } = useParams();
@@ -18,11 +19,14 @@ export default function ShowDetails() {
     }
 
     return (
-        <div>
-            <img  src={selectedDetail.img}/>
-            <h1>{selectedDetail.title}</h1>
+        <div className="buynowContainerCards">
+            <img src={selectedDetail.img} className="buynow-images"/>
+            <h2>{selectedDetail.title}</h2>
             <p>{selectedDetail.description}</p>
             <p>Price: {selectedDetail.price}</p>
+            <button className="btn41-43 btn-42">
+                Buy Now
+                </button>
 
         
         </div>

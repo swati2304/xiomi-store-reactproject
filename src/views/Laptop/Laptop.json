@@ -1,10 +1,10 @@
 [
     {
         "id":"1",
-        "title":"Redmi 11 pro Tablect",
-        "price":"20999",
-        "img" : "http://localhost:3000/static/media/tab2.cf5ef3e305841fc60be3.jpg",
-        "description" : "this is very good mobile"
+        "title":"Redmi 11 pro Tablet",
+        "price":"₹ 20999",
+        "img" : "http://localhost:3001/static/media/tab2.cf5ef3e305841fc60be3.jpg",
+        "description" : "This is very good Tablet"
     },
     {
         "id":"2",

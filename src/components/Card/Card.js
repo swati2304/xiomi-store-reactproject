@@ -9,7 +9,7 @@ export default function Card({img, price, name, id}){
       <img src={img} className="tablet-images"/>
       <p className="description">{name}</p>
       <p className="description-1"> Just Rs. {price}/-</p>
-      <Link to={`/laptop/showdetails/${id}`}><button>Buy Now</button>
+      <Link to={`/laptop/showdetails/${id}`}><button className="btn41-43 btn-42">Buy Now</button>
       </Link>
 
     </div>
