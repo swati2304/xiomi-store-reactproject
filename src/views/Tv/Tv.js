@@ -79,7 +79,7 @@ function Tv(){
       <div className='containerforimgtext'>
        <div className='textcontainertv'>
        <h2 className="heading">A Millionaire Display</h2>
-        <p className="para-text">Experience lifelike picture on a Full HD display with<br/> deeper colors thanks to a richer colour gamut capable<br/>of displaying over 16 million colours.</p>
+        <p className="para-text1">Experience life like picture on a Full HD display with<br/> deeper colors thanks to a richer colour gamut capable<br/>of displaying over 16 million colours.</p>
        </div>
       <img src={Smarttv1} className="smarttvimg" alt="..."/>
       </div>
