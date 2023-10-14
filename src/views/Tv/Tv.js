@@ -6,7 +6,7 @@ import "./Tv.css";
 import Card from "./../../components/Card/Tvcard";
 import Tv1 from "./img/tv1.jpg";
 import Tv2 from "./img/tv2.jpg";
-import Tv3 from "./img/tv3.jpg";
+import Tv3 from "./img/tv3.png";
 import Tv4 from "./img/tv4.jpg";
 import Tv5 from "./img/tv5.jpg";
 import Tv6 from "./img/tv6.jpg";
@@ -54,22 +54,22 @@ function Tv(){
     <h3 className="banner-heading">WATCH,PLAY,CELEBRATE<br/> WITH SMART TV's</h3>
    </div>
    <div className='tv-container'>
-      <Card img={Tv1} price={10499} del={54554} name="xiomi Smart TV A 32 (80cm)"/>
-      <Card img={Tv2} price={61999} del={4444} name="Xiaomi Smart TV X 65 (163.9 cm) 2023 Edition"/>
-      <Card img={Tv3} price={35999} name="Xiomi Smart TV X 55 (138.8CM) 2023 Edition"/>
-      <Card img={Tv4} price={30999} name="Xiomi Smart TV X 50 (125.7CM) 2023Edition"/>
+      <Card img={Tv1} price={10499} del={24999} off="58% off" name="Xiomi Smart TV A 32 (80 cm)"/>
+      <Card img={Tv2} price={61999} del={89999} off="31% off" name="Xiaomi Smart TV X 65 (163.9 cm) 2023 Edition"/>
+      <Card img={Tv3} price={21999} del={29999} off="26% off" name="Mi TV 4A 108cm (43) Horizon Edition"/>
+      <Card img={Tv4} price={43999} del={69999} off="37% off" name="Mi TV 5X 55"/>
       </div>
       <div className='tv-container'>
-      <Card img={Tv5} price={24999} name="Xiaomi Smart TV X 43 (108 cm) 2023 Edition"/>
-      <Card img={Tv6} price={20499} name="Xiomi Smart TV A 40 (100cm)"/>
-      <Card img={Tv7} price={21999} name="Xiomi Smart TV A 43 (108cm)"/>
-      <Card img={Tv8} price={44999} name="Xiomi Smart TV X Pro 1.38m (55)"/>
+      <Card img={Tv5} price={39999} del={59999} off="33% off" name="Xiaomi Smart TV X Pro 1.25m (50)"/>
+      <Card img={Tv6} price={9999} del={19999} off="50% off" name="Mi LED TV 4C 80CM (32)"/>
+      <Card img={Tv7} price={34999} del={54999} off="36% off" name="Xiomi Smart TV X 55 (139 cm)"/>
+      <Card img={Tv8} price={29499} del={44999} off="34% off"name="Xiomi Smart TV X 50 (126 cm)"/>
       </div>
       <div className='tv-container'>
-      <Card img={Tv9} price={39999} name="Xiomi Smart TV X Pro 1.25m (50)"/>
-      <Card img={Tv10} price={29999} name="Xiomi Smart TV X Pro 1.08m (43)"/>
-      <Card img={Tv11} price={34999} name="Xiomi Smart TV X55 (139cm)"/>
-      <Card img={Tv12} price={29499} name="Xiomi Smart TV X50 (126cm"/>
+      <Card img={Tv9} price={23999} del={42999} off="44% off" name="Xiomi Smart TV X43 (108 cm)"/>
+      <Card img={Tv10} price={12999} del={25999} off="50% off" name="Xiomi Smart TV 5A Pro 32 (80 cm)"/>
+      <Card img={Tv11} price={21499} del={35999} off="40% off" name="Xiomi Smart TV 5A 108 cm (43 inch) Full.."/>
+      <Card img={Tv12} price={29999} del={49999} off="40% off" name="Mi TV 5X 43"/>
       </div>
       <div>
         <h2 className="heading">Premium Metal Bezel-less Design</h2>
@@ -81,7 +81,7 @@ function Tv(){
        <h2 className="heading">A Millionaire Display</h2>
         <p className="para-text">Experience lifelike picture on a Full HD display with<br/> deeper colors thanks to a richer colour gamut capable<br/>of displaying over 16 million colours.</p>
        </div>
-      <img src={Smarttv1}  alt="..."/>
+      <img src={Smarttv1} className="smarttvimg" alt="..."/>
       </div>
   </>
   );
