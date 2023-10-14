@@ -1,5 +1,5 @@
 .tablet-images{
-    height: 320px;
+    height: 280px;
     width: 220px;
     margin: 5px;
     padding: 5px;
@@ -13,10 +13,11 @@
     text-align: center;
     background-color: aliceblue;
     height: 500px;
-    width: 250px;
+    width: 300px;
     border-radius: 10px;
-    box-shadow: 2px 2px 5px 5px violet;
-    margin: 10px;
+    box-shadow: 2px 2px 3px 3px rgb(232, 226, 232);
+    margin: 0px;
+    margin-left: 5px;
 }
 .cards-container:hover{
     cursor: pointer;
@@ -36,13 +37,10 @@
     margin: 2px;
     padding: 5px;
 }
-.btn-1{
-    cursor: pointer;
-    background-color: black;
-    border-radius: 10px;
-    color: aliceblue;
-    width: 180px;
-    height: 30px;
-    margin: 5px;
-    padding: 5px;
+
+.lifestylecardcontainer{
+    height: 500px;
+    width: 400px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
 }

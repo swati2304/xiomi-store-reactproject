@@ -1,7 +1,7 @@
-.container{
+.container-tablets{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     
 }
 .main-title{
@@ -13,4 +13,5 @@
 .main-img{
     min-width: 225vh;
     height: 500px;
+
 }

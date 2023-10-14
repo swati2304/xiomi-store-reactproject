@@ -45,7 +45,7 @@
     bottom: 0;
     left: 0;
     z-index: -1;
-    background-color: hwb(151 9% 6%);
+    background-color: hwb(150 84% 9%);
     transition: all 0.3s ease;
   }
   
@@ -68,4 +68,35 @@
 {
     display: flex;
     justify-content: space-around;
+}
+
+
+
+/* social media icon */
+
+#social-media
+{
+  
+    padding: 60px 0px ;
+}
+
+#social-media p
+{
+    font-size:36px ;
+    margin-bottom: 30px;
+
+}
+
+.social-icons img
+{
+    box-shadow: 3px 3px 5px 2px black;
+    border-radius: 10px;
+    width: 50px;
+    margin: 8px;
+    transition: 0.5s;
+}
+
+.social-icons a:hover img
+{
+    transform: translateY(-10px);
 }
