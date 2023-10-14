@@ -9,9 +9,11 @@ import Login from "./views/Login/Login"
 import Signup from "./views/Signup/Signup"
 import Smartphone from "./views/Smartphone/Smartphone"
 import Tv from "./views/Tv/Tv"
+import Lifestyle from './views/Lifestyle/Lifestyle';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+import ShowDetails from './views/ShowDetails/ShowDetails'
 
 
 const router = createBrowserRouter([
@@ -42,6 +44,14 @@ const router = createBrowserRouter([
       {
         path: "/tv",
         element: <Tv />,
+      },
+      {
+        path: "/lifestyle",
+        element: <Lifestyle />,
+      },
+      {
+        path: "/laptop/showdetails/:id",
+        element: <ShowDetails />,
       },
   ]);
 
