@@ -14,7 +14,7 @@ import LapImage from './../../views/Laptop/img/lap.webp'
 import HomeImg1 from './../../views/Laptop/img/redmi-note-3.jpg'
 import HomeImg2 from './../../views/Laptop/img/poster1.jpg'
 import HomeImg3 from './../../views/Laptop/img/m-6.jpeg'
-import HomeImg4 from './../../views/Laptop/img/main-img-4.jpeg'
+import HomeImg4 from './../../views/Laptop/img/M-10.jpeg'
 import LapImage2 from './../../views/Laptop/img/laptop-4.jpeg'
 import LapImage3 from './../../views/Laptop/img/laptop-5.jpeg'
 import LapImage4 from './../../views/Laptop/img/lap-1.jpeg'
@@ -64,7 +64,7 @@ function Laptop() {
       <br/>
       <h1 className='main-title'>Tablets </h1>
       <br/>
-      <div className='container'>
+      <div className='container-tablets'>
       <Card img={ImgTablet} price={20999} id={1} name="xiomi Mi Pad 5"/>
       <Card img={Img} price={15999} id={2} name="xiomi Mi pad 6"/>
       <Card img={Images} price={22999} id={3} name="xiomi Mi pad 5 Review"/>
@@ -73,7 +73,7 @@ function Laptop() {
       <br/>
       <br/>
       <br/>
-      <div className='container'>
+      <div className='container-tablets'>
       <Card img={Tab} price={19999} id={5} name="xiomi pad 6 pro" />
       <Card img={ImgTab} price={24999} id={6} name="The Best xiomi Tablet"/>
       <Card img={ImgTabs} price={24999} id={7} name="The Best xiomi Tablet"/>
@@ -84,7 +84,7 @@ function Laptop() {
       <br/>
       <h1 className='main-title'>Laptops </h1>
       <br/>
-      <div className='container'>
+      <div className='container-tablets'>
       <Card img={ImageOfLaptop} price={75000} id={9} name="xiomi NoteBook pro 11"/>
       <Card img={LapImage} price={45999} id={10} name="xiomi Mi Notebook Ultra"/>
       <Card img={LapImage2} price={55999} id={11} name="xiomi Mi Laptop Book"/>
@@ -92,7 +92,7 @@ function Laptop() {
       </div>
       <br/>
       <br/>
-      <div className='container'>
+      <div className='container-tablets'>
       <Card img={LapImage4} price={35999} id={13} name="xiomi Laptop Pro 11"/>
       <Card img={LapImage5} price={32999} id={14} name="xiomi Mi Notebook Pro Ultra"/>
       <Card img={LapImage6} price={55999} id={15} name="xiomi Mi Laptop Air"/>
