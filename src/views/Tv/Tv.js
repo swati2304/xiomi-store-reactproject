@@ -54,21 +54,21 @@ function Tv(){
     <h3 className="banner-heading">WATCH,PLAY,CELEBRATE<br/> WITH SMART TV's</h3>
    </div>
    <div className='tv-container'>
-      <Card img={Tv1} price={10499} del={24999} off="58% off" name="Xiomi Smart TV A 32 (80 cm)"/>
-      <Card img={Tv2} price={61999} del={89999} off="31% off" name="Xiaomi Smart TV X 65 (163.9 cm) 2023 Edition"/>
+      <Card img={Tv1} price={10499} del={24999} off="58% off" name="Xiomi Smart TV A 32 (80cm)"/>
+      <Card img={Tv2} price={61999} del={89999} off="31% off" name="Xiaomi Smart TV X 65 (163.9cm) 2023 Edition"/>
       <Card img={Tv3} price={21999} del={29999} off="26% off" name="Mi TV 4A 108cm (43) Horizon Edition"/>
       <Card img={Tv4} price={43999} del={69999} off="37% off" name="Mi TV 5X 55"/>
       </div>
       <div className='tv-container'>
       <Card img={Tv5} price={39999} del={59999} off="33% off" name="Xiaomi Smart TV X Pro 1.25m (50)"/>
       <Card img={Tv6} price={9999} del={19999} off="50% off" name="Mi LED TV 4C 80CM (32)"/>
-      <Card img={Tv7} price={34999} del={54999} off="36% off" name="Xiomi Smart TV X 55 (139 cm)"/>
-      <Card img={Tv8} price={29499} del={44999} off="34% off"name="Xiomi Smart TV X 50 (126 cm)"/>
+      <Card img={Tv7} price={34999} del={54999} off="36% off" name="Xiomi Smart TV X 55 (139cm)"/>
+      <Card img={Tv8} price={29499} del={44999} off="34% off"name="Xiomi Smart TV X 50 (126cm)"/>
       </div>
       <div className='tv-container'>
-      <Card img={Tv9} price={23999} del={42999} off="44% off" name="Xiomi Smart TV X43 (108 cm)"/>
-      <Card img={Tv10} price={12999} del={25999} off="50% off" name="Xiomi Smart TV 5A Pro 32 (80 cm)"/>
-      <Card img={Tv11} price={21499} del={35999} off="40% off" name="Xiomi Smart TV 5A 108 cm (43 inch) Full.."/>
+      <Card img={Tv9} price={23999} del={42999} off="44% off" name="Xiomi Smart TV X43 (108cm)"/>
+      <Card img={Tv10} price={12999} del={25999} off="50% off" name="Xiomi Smart TV 5A Pro 32 (80cm)"/>
+      <Card img={Tv11} price={21499} del={35999} off="40% off" name="Xiomi Smart TV 5A 108cm (43 inch) Full.."/>
       <Card img={Tv12} price={29999} del={49999} off="40% off" name="Mi TV 5X 43"/>
       </div>
       <div>
@@ -79,7 +79,7 @@ function Tv(){
       <div className='containerforimgtext'>
        <div className='textcontainertv'>
        <h2 className="heading">A Millionaire Display</h2>
-        <p className="para-text">Experience lifelike picture on a Full HD display with<br/> deeper colors thanks to a richer colour gamut capable<br/>of displaying over 16 million colours.</p>
+        <p className="para-text1">Experience life like picture on a Full HD display with<br/> deeper colors thanks to a richer colour gamut capable<br/>of displaying over 16 million colours.</p>
        </div>
       <img src={Smarttv1} className="smarttvimg" alt="..."/>
       </div>

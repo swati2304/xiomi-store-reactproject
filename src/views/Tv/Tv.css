@@ -8,7 +8,7 @@
 .heading{
     text-align: center;
     font-size:50px;
-    margin: 20px auto;
+    margin: 30px auto;
 }
 .banner-heading{
    background-image: url("./img/img4.jpg"); 
@@ -17,7 +17,7 @@
    margin-top: 40px;
    font-size: 50px;
    color: white;
-   
+     
 }
 .para-text{
     text-align: center;
@@ -26,10 +26,27 @@
 }
 .containerforimgtext{
     display: flex;
+   
+    margin-top: 70px;
 }
 .textcontainertv{
     display:block;
+    display: grid;
+    place-content: center;
+    margin-right: -70px;
+   margin-left: 80px;
+}
+.para-text1{
+    text-align: left;
+    font-size: 20px;
+    color:#0f1532;
+    
+    
 }
 .smarttvimg{
-    
+   width: 50%; 
+   height: 50%;
+   margin-left: 250px;
+ 
+   
 }
