@@ -1,6 +1,6 @@
 .buynow-images{
-    height: 300px;
-    width: 200x;
+    height: 260px;
+    width: 160x;
     margin-left: auto;
     margin-right: auto;
     padding: 5px;
@@ -8,8 +8,8 @@
 .buynowContainerCards{
     background-color: aliceblue;
     border-radius: 10px;
-    height: 500px;
-    width: 400px;
+    height: 550px;
+    width: 450px;
     box-shadow: 2px 2px 3px 3px rgb(151, 150, 150);
     margin-right: auto;
     margin-left: auto;
@@ -68,4 +68,8 @@
   }
   .buynow-details{
     font-size: 20px;
+  }
+  .buynowPrice{
+    font-size: 25px;
+    color: red;
   }
