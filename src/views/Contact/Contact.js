@@ -40,9 +40,9 @@ const Contact = () => {
     </p>
 <div className='Container'>
     <form onSubmit={handleSubmit} className='form-border'>
-      <button className='btn'>💬 VIA SUPPORT CHAT</button>
-      <button className='btn'>📞VIA CALL</button>
-      <button className='email-btn'>📩 VIA EMAIL FORM</button>
+      <button className='support'>💬 VIA SUPPORT CHAT</button>
+      <button className='support'>📞VIA CALL</button>
+      <button className='email'>📩 VIA EMAIL FORM</button>
       <div className='form-control'>
       <label htmlFor="name">Name:</label>
       <input
@@ -80,7 +80,7 @@ const Contact = () => {
 
       <div className='form-control'>
       <label htmlFor="message">Message:</label>
-      <textarea
+      <textarea className='text'
         id="message"
         name="message"
         value={formData.message}
