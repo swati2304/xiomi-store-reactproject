@@ -66,19 +66,19 @@ function Laptop() {
       <h1 className='main-title'>Tablets </h1>
       <br/>
       <div className='container-tablets'>
-      <Card img={ImgTablet} price={20999} id={1} name="Xiomi Mi Pad 5"/>
-      <Card img={Img} price={18999} id={2} name="Xiomi Mi pad 6"/>
-      <Card img={Images} price={22999} id={3} name="Xiomi Mi pad 5 Review"/>
-      <Card img={Tablet} price={18599} id={4} name="Xiomi Mi pad 6 pro 11"/>
+      <Card img={ImgTablet} price={20999} id={1} name="Xiomi Mi Pad 5" button={15}/>
+      <Card img={Img} price={18999} id={2} name="Xiomi Mi pad 6" button={18}/>
+      <Card img={Images} price={22999} id={3} name="Xiomi Mi pad 5 Review" button={33}/>
+      <Card img={Tablet} price={18599} id={4} name="Xiomi Mi pad 6 pro 11" button={22}/>
       </div>
       <br/>
       <br/>
       <br/>
       <div className='container-tablets'>
-      <Card img={Tab} price={19999} id={5} name="Xiomi Pad 6 pro" />
-      <Card img={ImgTab} price={24999} id={6} name="The Best Xiomi Tablet"/>
-      <Card img={ImgTabs} price={23999} id={7} name="The Best Redmi Tablet"/>
-      <Card img={ImgTabs1} price={27999} id={8} name="The Xiomi Tablet"/>
+      <Card img={Tab} price={19999} id={5} name="Xiomi Pad 6 pro" button={11}/>
+      <Card img={ImgTab} price={24999} id={6} name="The Best Xiomi Tablet" button={17}/>
+      <Card img={ImgTabs} price={23999} id={7} name="The Best Redmi Tablet"button={22}/>
+      <Card img={ImgTabs1} price={27999} id={8} name="The Xiomi Tablet" button={33}/>
       </div>
       <br/>
       <div>
@@ -88,18 +88,18 @@ function Laptop() {
       <h1 className='main-title'>Laptops </h1>
       <br/>
       <div className='container-tablets'>
-      <Card img={ImageOfLaptop} price={74999} id={9} name="Xiomi NoteBook pro 11"/>
-      <Card img={LapImage} price={45999} id={10} name="Xiomi Mi Notebook Ultra"/>
-      <Card img={LapImage2} price={55999} id={11} name="Xiomi Mi GameZoneG"/>
-      <Card img={LapImage3} price={30999} id={12} name="Xiomi Mi Notebook"/>
+      <Card img={ImageOfLaptop} price={74999} id={9} name="Xiomi NoteBook pro 11"button={28}/>
+      <Card img={LapImage} price={45999} id={10} name="Xiomi Mi Notebook Ultra"button={27}/>
+      <Card img={LapImage2} price={55999} id={11} name="Xiomi Mi GameZoneG"button={33}/>
+      <Card img={LapImage3} price={30999} id={12} name="Xiomi Mi Notebook"button={31}/>
       </div>
       <br/>
       <br/>
       <div className='container-tablets'>
-      <Card img={LapImage4} price={48999} id={13} name="Xiomi Pro 11"/>
-      <Card img={LapImage5} price={52999} id={14} name="Xiomi Mi Notebook Pro"/>
-      <Card img={LapImage6} price={55999} id={15} name="Xiomi Mi NoteBook"/>
-      <Card img={LapImage7} price={49999} id={16} name="Xiomi Mi GameZone H"/>
+      <Card img={LapImage4} price={48999} id={13} name="Xiomi Pro 11"button={24}/>
+      <Card img={LapImage5} price={52999} id={14} name="Xiomi Mi Notebook Pro"button={26}/>
+      <Card img={LapImage6} price={55999} id={15} name="Xiomi Mi NoteBook"button={38}/>
+      <Card img={LapImage7} price={49999} id={16} name="Xiomi Mi GameZone H"button={42}/>
       </div>
     </div>
     <br/>
