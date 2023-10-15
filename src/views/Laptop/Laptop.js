@@ -81,7 +81,9 @@ function Laptop() {
       <Card img={ImgTabs1} price={27999} id={8} name="The Xiomi Tablet"/>
       </div>
       <br/>
-      <br/>
+      <div>
+      <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKAguEXMYDI4EnZEHJOqSDntxZqd7Pz1jTTQ&usqp=CAU' className='MiddleImage'/>
+      </div>
       <br/>
       <h1 className='main-title'>Laptops </h1>
       <br/>
@@ -100,6 +102,8 @@ function Laptop() {
       <Card img={LapImage7} price={49999} id={16} name="Xiomi Mi GameZone H"/>
       </div>
     </div>
+    <br/>
+    <br/>
     <Footer/>
     </>  
   )

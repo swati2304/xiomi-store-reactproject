@@ -9,7 +9,7 @@ export default function ShowDetails() {
     const [selectedDetail, setSelectedDetail] = useState(null);
 
     function popup(){
-        showToast ('Buy Now Successfully, 3000')
+        showToast('Buy Now Successfully', 'success', 3000);
     }
 
     useEffect(() => {
@@ -28,7 +28,7 @@ export default function ShowDetails() {
             <h2>{selectedDetail.title}</h2>
             <p>{selectedDetail.description}</p>
             <p className="buynowPrice">Price: {selectedDetail.price}</p>
-            <input type="number"/>
+            <input type="number" className="input-number" placeholder="1"/>
             <button className="btn41-43 btn-42" onClick={popup}>
                 Buy Now
             </button>
