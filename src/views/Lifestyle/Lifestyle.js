@@ -3,9 +3,12 @@ import "./Lifestyle.css"
 import { Lifestylecard } from '../../components/Card/Card'
 import Lifedata from "./Lifestyle.json"
 import { Lifestylecardaudio } from '../../components/Card/Card'
+import Navbar from "./../../components/Navbar/Navbar"
+import Footer from "./../../components/Footer/Footer"
 function Lifestyle() {
     return (
         <div>
+            <Navbar/>
             <div>
                 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
                     <div class="carousel-indicators">
@@ -73,9 +76,25 @@ function Lifestyle() {
            <Lifestylecardaudio price="999"  title="Mi Earphones Basic " img="https://i03.appmifile.com/861_item_in/01/09/2023/a42193897ee870f847b2aaeeea47e85f!600x600!85.png" />
            <Lifestylecardaudio price="719"  title="Redmi Wireless Earphones" img="https://i03.appmifile.com/9_item_in/01/08/2023/5b55c8858a7f2107e20d448e280e6357!348x348.jpg?f=webp" />
            <Lifestylecardaudio price="1488"  title="Redmi Buds 4 Active" img="https://i03.appmifile.com/528_item_in/10/06/2023/b6d5a6becd22211b5c5c552288a6b5e1!348x348.jpg?f=webp" />
-           <Lifestylecardaudio price="999"  title="MI Bluetooth Speaker" img="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1613844064.93574921!348x348.jpg?f=webp" />
-           <Lifestylecardaudio price="999"  title="Mi Earphones Basic " img="https://i03.appmifile.com/861_item_in/01/09/2023/a42193897ee870f847b2aaeeea47e85f!600x600!85.png" />
+           <Lifestylecardaudio price="789"  title="MI Bluetooth Speaker" img="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1613844064.93574921!348x348.jpg?f=webp" />
+           <Lifestylecardaudio price="659"  title="Xiaomi Smart Speaker " img="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1657699018.20982385!348x348.jpg?f=webp" />
+           <Lifestylecardaudio price="199"  title="Redmi Earphones" img="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1598954011.16786635!348x348.png?f=webp" />
+           <Lifestylecardaudio price="777"  title="Mi Dual Driver Earphones" img="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1617825722.98226831!348x348.png?f=webp" />
+           <Lifestylecardaudio price="659"  title="Redmi Rockerberz" img="https://rukminim2.flixcart.com/image/612/612/l3vxbbk0/headphone/b/v/u/-original-imagewuzqrqktf6m.jpeg?q=70" />
             </div>
+            <p className='audio-heading'>Backpack & Watches</p>
+
+            <div className='audio-card-container'>
+            <Lifestylecardaudio price="1156"  title="Mi Step Out Backpack" img="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1576490467.46922243!348x348.png?f=webp"/>
+            <Lifestylecardaudio price="399"  title="Mi Selfie Stick Tripod" img="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1678862266.52391023!348x348.jpg?f=webp"/>
+            <Lifestylecardaudio price="888"  title="Xiaomi Electric Compressor " img="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1647251638.96131748!348x348.jpg?f=webp"/>
+            <Lifestylecardaudio price="499"  title="redmi-writing-pad" img="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1665380243.77242135!348x348.jpg?f=webp" />
+            <Lifestylecardaudio price="1898"  title="Redmi Smart Band" img="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1644208569.07921361!348x348.png?f=webp" />
+            <Lifestylecardaudio price="1756"  title="Redmi watch 2 lite" img="https://i03.appmifile.com/877_item_in/01/08/2023/20ec4e1140ec7d5a25f20797895f70c2!348x348.jpg?f=webp" />
+            <Lifestylecardaudio price="1059"  title="Xiaomi Beard Trimmer 2C" img="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1681292640.42658518!348x348.jpg?f=webp" />
+
+            </div>
+            <Footer/>
         </div>
     )
 }
