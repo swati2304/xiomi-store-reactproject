@@ -8,6 +8,10 @@ export default function ShowDetails() {
     const { id } = useParams();
     const [selectedDetail, setSelectedDetail] = useState(null);
 
+    function popup(){
+        showToast ('Buy Now Successfully, 3000')
+    }
+
     useEffect(() => {
         const foundDetail = detail.find(item => item.id === id);
         if (foundDetail) {
@@ -24,10 +28,10 @@ export default function ShowDetails() {
             <h2>{selectedDetail.title}</h2>
             <p>{selectedDetail.description}</p>
             <p className="buynowPrice">Price: {selectedDetail.price}</p>
-            <button className="btn41-43 btn-42" >
+            <input type="number"/>
+            <button className="btn41-43 btn-42" onClick={popup}>
                 Buy Now
             </button>
-            showToast('Buy Now successfully', 'success', 3000);
 
         
         </div>
