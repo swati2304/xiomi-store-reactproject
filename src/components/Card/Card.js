@@ -19,16 +19,31 @@ export default function Card({img, price, name, id}){
 
 
 
-export  function Lifestylecard({img,title,price,description,btn}) {
+export  function Lifestylecard({img,title,price,description,btn,offer}) {
   return (
     <div className="lifestylecardcontainer">
 
-      <img src={img}/>
-      <h1>{title}</h1>
-      <p>{price}</p>
-      <p>{description}</p>
-       <button>{btn}</button>
+      <img className="lifestyle-image-card" src={img}/>
+      <h2 className="lifestyle-card-title">{title}</h2>
+      <p className="lifestyle-card-title " >{price}</p>
+      <p className="lifestyle-card-dec">{description}</p>
+       <button className="lifestyle-card-btnn">{btn}</button>
+       <p className="lifestyle-card-offer">{offer}</p>
       
+    </div>
+  )
+}
+
+
+
+
+export  function Lifestylecardaudio({img,title,price}) {
+  return (
+    <div className="audiocardcontainer">
+      <img className="lifestyle-image-card-audio" src={img}/>
+      <h2 className="lifestyle-audio-title">{title}</h2>
+      <p className="lifestyle-audio-price">₹ {price}</p>
+      <button className="lifestyle-audio-btnn">Buy Now</button>
     </div>
   )
 }
