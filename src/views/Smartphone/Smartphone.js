@@ -12,6 +12,8 @@ import Image2 from "./img/image2.webp"
 import Image5 from "./img/image8.jpg"
 import Image6 from "./img/image6.jpg"
 import Image7 from "./img/image7.jpg"
+import Navbar from "./../../components/Navbar/Navbar"
+import Footer from "./../../components/Footer/Footer"
 
 
 
@@ -19,6 +21,7 @@ import Image7 from "./img/image7.jpg"
 function Smartphone() {
   return (
     <div>
+      <Navbar/>
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -82,7 +85,7 @@ function Smartphone() {
           <img src={Image7} className='img-2'/>
         </div>
       </div>
-
+         <Footer/>
     </div>
   )
 }
