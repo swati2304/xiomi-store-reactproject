@@ -54,7 +54,7 @@ function Smartphone() {
           </button>
         </div>
       </div>
-      <p className='main-title'>MI Phones</p>
+      <p className='main-title'>MI Phones_📱</p>
       <div className='container'>
       <Phone img={ImgTablet} price={14000} name="Redmi Note 12 5G"/>
       <Phone img={Img} price={20999} name="Redmi 12 5G "/>
@@ -69,24 +69,60 @@ function Smartphone() {
       <Phone img={Image7} price={16999} name="Mi 10"/>
       </div>
       <br/>
-      <h4 className=' main-title-2'>Redmi series</h4>
+      <h3 className=' main-title-2'>Redmi Series..❤</h3>
 
       <div className='second-card-container'>
         <div className='first-card'>
+        <img  src={Image8}className='img-1'/>
           <h4 className='title-txt-1'>Redmi 12</h4>
           <p className='txt-1'>Octa Core Processor | 200mp + OIS</p>
           <p className='txt-1'>From ₹14,499</p>
-          <img className='img-1'></img>
-        </div>
+          <button className='btn-22'> Buy Now</button>
+          </div>
         <div className='second-card'>
+        <img src={Image9} className='img-1'/>
           <h4 className='title-txt-1'>Redmi A2 +</h4>
           <p className='txt-1'>Octa Core Processor | Up to 7GB Ram..</p>
           <p className='txt-1'>From ₹15,499</p>
-          <img src={Image7} className='img-2'/>
+          <button className='btn-22'> Buy Now</button>
+        </div>
+        </div>
+        <div className='second-card-container'>
+        <div className='first-card'>
+        <img  src={Image11}className='img-1'/>
+          <h4 className='title-txt-1'>Redmi Note 12</h4>
+          <p className='txt-1'>Super Note. Super Design</p>
+          <p className='txt-1'>From ₹11,999</p>
+          <button className='btn-22'> Buy Now</button>
+        </div>
+        <div className='second-card'>
+        <img src={Image10} className='img-1'/>
+          <h4 className='title-txt-1'>Redmi Note 12 Pro+ 5G</h4>
+          <p className='txt-1'>200MP + OIS</p>
+          <p className='txt-1'>From ₹27,999</p>
+          <button className='btn-22'> Buy Now</button>
+         </div>
+         </div>
+       <h3 className='main-title-3'>Our Services..⭐</h3>
+       <p className='main-title-33'>Trusted. Secure. Reliable</p>
+      <div className='third-card-container'>
+        <div className='third-card'>
+          <h4 className='main-title-3'>Mi Screen Protect</h4>
+           <p className='main-title-33'> Screen Protection against Accidental, Liquid Damage<br/>
+               Avail 2 Claims Per year</p>
+               <img  src={Image12}className='img-11'/>
+
+        </div>
+        <div className='third-card'>
+          <h4 className='main-title-3'>Mi Complete Protect</h4>
+          <p className='main-title-33'>Safeguard your smartphone Against Accidental & <br/>Liquid Damages</p>
+          <img  src={Image13}className='img-11'/>
         </div>
       </div>
          <Footer/>
     </div>
+     
+
   )
 }
 
