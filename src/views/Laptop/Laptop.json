@@ -3,7 +3,7 @@
         "id":"1",
         "title":"Xiomi Mi pad 5",
         "price":"₹ 20,999/-",
-        "img" : "http://localhost:3001/static/media/tab2.cf5ef3e305841fc60be3.jpg",
+        "img" : "http://localhost:3000/static/media/tab2.cf5ef3e305841fc60be3.jpg",
         "description" : "In this Tablet HD+120Hz Display, Unterstst Dolby Version, 8.720mah Battery."
     },
     {
@@ -30,7 +30,7 @@
         "id":"5",
         "title":"Xiomi Mi Pad 6 Pro",
         "price":"₹ 19,999/-",
-        "img" : "http://localhost:3001/static/media/tab3.afb050700e19cd00fb84.jpg",
+        "img" : "http://localhost:3000/static/media/tab3.afb050700e19cd00fb84.jpg",
         "description":"In this Tablet HD+ 120Hz Display, Dolby Version, 8.740mah Battery life, Foldable."
     },
     {
@@ -45,7 +45,7 @@
         "id":"7",
         "title":"The Best Redmi Tablet",
         "price":"₹ 23,999/-",
-        "img" : "http://localhost:3001/static/media/tab1.84bc3646941181e9973a.jpeg",
+        "img" : "http://localhost:3000/static/media/tab1.84bc3646941181e9973a.jpeg",
         "description":"In this Tablet HD+ 120Hz Display, Dolby Version, 8.740mah Battery life, Foldable."
     
     },
@@ -66,14 +66,14 @@
         "id":"10",
         "title":"Xiomi Mi NoteBook Ultra",
         "price":"₹ 45,999/-",
-        "img" : "http://localhost:3001/static/media/lap.502c98e35939ef16b62c.webp",
+        "img" : "http://localhost:3000/static/media/lap.502c98e35939ef16b62c.webp",
         "description":"In this Laptop HD+ 120Hz Display, Dolby Version, 8.740mah Battery life, 123GB RAM."
     },
     {
         "id":"11",
         "title":"Xiomi Mi GameZone G",
         "price":"₹ 55,999/-",
-        "img" : "http://localhost:3001/static/media/laptop-4.9ee073dfdc4cd40da624.jpeg",
+        "img" : "http://localhost:3000/static/media/laptop-4.9ee073dfdc4cd40da624.jpeg",
         "description":"In this Laptop HD+ 120Hz Display, Dolby Version, 8.740mah Battery life, 123GB RAM."
     },
     {
@@ -93,14 +93,14 @@
         "id":"14",
         "title":"Xiomi Mi NoteBook Pro",
         "price":"₹ 52,999/-",
-        "img" : "http://localhost:3001/static/media/lap-6.636e317ea09eab4c2c90.jpeg",
+        "img" : "http://localhost:3000/static/media/lap-6.636e317ea09eab4c2c90.jpeg",
         "description":"In this Laptop HD+ 120Hz Display, Dolby Version, 8.740mah Battery life, 123GB RAM."
     },
     {
         "id":"15",
         "title":"Xiomi Mi NoteBook",
         "price":"₹ 55,999/-",
-        "img" : "http://localhost:3001/static/media/lap-7.4a14218764e26bd48d3b.jpeg",
+        "img" : "http://localhost:3000/static/media/lap-7.4a14218764e26bd48d3b.jpeg",
         "description":"In this Laptop HD+ 120Hz Display, Dolby Version, 8.740mah Battery life, 123GB RAM."
     },
     {

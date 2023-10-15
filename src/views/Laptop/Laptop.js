@@ -21,14 +21,15 @@ import LapImage4 from './../../views/Laptop/img/lap-1.jpeg'
 import LapImage5 from './../../views/Laptop/img/lap-6.jpeg'
 import LapImage6 from './../../views/Laptop/img/lap-7.jpeg'
 import LapImage7 from './../../views/Laptop/img/lap-8.jpeg'
-
-
+import Navbar from '../../components/Navbar/Navbar';
+import Footer from "./../../components/Footer/Footer"
 
 
 
 function Laptop() {
   return (
     <>
+    <Navbar/>
     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -99,6 +100,7 @@ function Laptop() {
       <Card img={LapImage7} price={49999} id={16} name="Xiomi Mi GameZone H"/>
       </div>
     </div>
+    <Footer/>
     </>  
   )
 }
