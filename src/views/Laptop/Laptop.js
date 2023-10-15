@@ -14,7 +14,7 @@ import LapImage from './../../views/Laptop/img/lap.webp'
 import HomeImg1 from './../../views/Laptop/img/redmi-note-3.jpg'
 import HomeImg2 from './../../views/Laptop/img/poster1.jpg'
 import HomeImg3 from './../../views/Laptop/img/m-6.jpeg'
-import HomeImg4 from './../../views/Laptop/img/main-img-4.jpeg'
+import HomeImg4 from './../../views/Laptop/img/M-10.jpeg'
 import LapImage2 from './../../views/Laptop/img/laptop-4.jpeg'
 import LapImage3 from './../../views/Laptop/img/laptop-5.jpeg'
 import LapImage4 from './../../views/Laptop/img/lap-1.jpeg'
@@ -64,39 +64,39 @@ function Laptop() {
       <br/>
       <h1 className='main-title'>Tablets </h1>
       <br/>
-      <div className='container'>
-      <Card img={ImgTablet} price={20999} id={1} name="xiomi Mi Pad 5"/>
-      <Card img={Img} price={15999} id={2} name="xiomi Mi pad 6"/>
-      <Card img={Images} price={22999} id={3} name="xiomi Mi pad 5 Review"/>
-      <Card img={Tablet} price={18599} id={4} name="xiomi Mi pad 6 pro 11"/>
+      <div className='container-tablets'>
+      <Card img={ImgTablet} price={20999} id={1} name="Xiomi Mi Pad 5"/>
+      <Card img={Img} price={18999} id={2} name="Xiomi Mi pad 6"/>
+      <Card img={Images} price={22999} id={3} name="Xiomi Mi pad 5 Review"/>
+      <Card img={Tablet} price={18599} id={4} name="Xiomi Mi pad 6 pro 11"/>
       </div>
       <br/>
       <br/>
       <br/>
-      <div className='container'>
-      <Card img={Tab} price={19999} id={5} name="xiomi pad 6 pro" />
-      <Card img={ImgTab} price={24999} id={6} name="The Best xiomi Tablet"/>
-      <Card img={ImgTabs} price={24999} id={7} name="The Best xiomi Tablet"/>
-      <Card img={ImgTabs1} price={27999} id={8} name="The xiomi Tablet"/>
+      <div className='container-tablets'>
+      <Card img={Tab} price={19999} id={5} name="Xiomi Pad 6 pro" />
+      <Card img={ImgTab} price={24999} id={6} name="The Best Xiomi Tablet"/>
+      <Card img={ImgTabs} price={23999} id={7} name="The Best Redmi Tablet"/>
+      <Card img={ImgTabs1} price={27999} id={8} name="The Xiomi Tablet"/>
       </div>
       <br/>
       <br/>
       <br/>
       <h1 className='main-title'>Laptops </h1>
       <br/>
-      <div className='container'>
-      <Card img={ImageOfLaptop} price={75000} id={9} name="xiomi NoteBook pro 11"/>
-      <Card img={LapImage} price={45999} id={10} name="xiomi Mi Notebook Ultra"/>
-      <Card img={LapImage2} price={55999} id={11} name="xiomi Mi Laptop Book"/>
-      <Card img={LapImage3} price={30999} id={12} name="xiomi Mi Notebook"/>
+      <div className='container-tablets'>
+      <Card img={ImageOfLaptop} price={74999} id={9} name="Xiomi NoteBook pro 11"/>
+      <Card img={LapImage} price={45999} id={10} name="Xiomi Mi Notebook Ultra"/>
+      <Card img={LapImage2} price={55999} id={11} name="Xiomi Mi GameZoneG"/>
+      <Card img={LapImage3} price={30999} id={12} name="Xiomi Mi Notebook"/>
       </div>
       <br/>
       <br/>
-      <div className='container'>
-      <Card img={LapImage4} price={35999} id={13} name="xiomi Laptop Pro 11"/>
-      <Card img={LapImage5} price={32999} id={14} name="xiomi Mi Notebook Pro Ultra"/>
-      <Card img={LapImage6} price={55999} id={15} name="xiomi Mi Laptop Air"/>
-      <Card img={LapImage7} price={30999} id={16} name="xiomi Mi Gaming Laptop"/>
+      <div className='container-tablets'>
+      <Card img={LapImage4} price={48999} id={13} name="Xiomi Pro 11"/>
+      <Card img={LapImage5} price={52999} id={14} name="Xiomi Mi Notebook Pro"/>
+      <Card img={LapImage6} price={55999} id={15} name="Xiomi Mi NoteBook"/>
+      <Card img={LapImage7} price={49999} id={16} name="Xiomi Mi GameZone H"/>
       </div>
     </div>
     </>  
