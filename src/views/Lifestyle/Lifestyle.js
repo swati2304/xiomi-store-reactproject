@@ -2,6 +2,7 @@ import React from 'react'
 import "./Lifestyle.css"
 import { Lifestylecard } from '../../components/Card/Card'
 import Lifedata from "./Lifestyle.json"
+import { Lifestylecardaudio } from '../../components/Card/Card'
 function Lifestyle() {
     return (
         <div>
@@ -58,12 +59,22 @@ function Lifestyle() {
             <div className='card-container-lifestyle'>
             {
                 Lifedata.map((card , index )=>{
-                    const { img,title,price,description,btn } = card;
+                    const { img,title,price,description,btn,offer } = card;
                     return(
-                        <Lifestylecard img={img} title={title} price={price} description={description} btn={btn}/>
+                        <Lifestylecard img={img} title={title} price={price} description={description} btn={btn} offer={offer}/>
                     )
                 })
             }
+            </div>
+            <p className='audio-heading'>Audio</p>
+            <img className='audio-image' src="https://i03.appmifile.com/464_operator_in/20/06/2023/24a34c1a45eec4e9cd92996621be54ce.jpg?f=webp"/>
+
+            <div className='audio-card-container'>
+           <Lifestylecardaudio price="999"  title="Mi Earphones Basic " img="https://i03.appmifile.com/861_item_in/01/09/2023/a42193897ee870f847b2aaeeea47e85f!600x600!85.png" />
+           <Lifestylecardaudio price="719"  title="Redmi Wireless Earphones" img="https://i03.appmifile.com/9_item_in/01/08/2023/5b55c8858a7f2107e20d448e280e6357!348x348.jpg?f=webp" />
+           <Lifestylecardaudio price="1488"  title="Redmi Buds 4 Active" img="https://i03.appmifile.com/528_item_in/10/06/2023/b6d5a6becd22211b5c5c552288a6b5e1!348x348.jpg?f=webp" />
+           <Lifestylecardaudio price="999"  title="MI Bluetooth Speaker" img="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1613844064.93574921!348x348.jpg?f=webp" />
+           <Lifestylecardaudio price="999"  title="Mi Earphones Basic " img="https://i03.appmifile.com/861_item_in/01/09/2023/a42193897ee870f847b2aaeeea47e85f!600x600!85.png" />
             </div>
         </div>
     )

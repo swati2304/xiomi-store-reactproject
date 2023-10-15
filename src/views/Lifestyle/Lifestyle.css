@@ -66,6 +66,7 @@
 }
 .diwali-offer-img{
     width: 100%;
+    margin-top: 70px;
 }
 .hedingofpowerbank{
     font-size: 30px;
@@ -76,6 +77,20 @@
 .card-container-lifestyle{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+.audio-image{
+    width: 100%;
+    height: 360px;
+}
+.audio-heading{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
     margin-top: 50px;
+}
+.audio-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
