@@ -397,18 +397,6 @@ function Home() {
              <Footer/>
 
 
-
-
-
-
-        
-           
-           
-
-
-        
-
-
                   
     </>              
 

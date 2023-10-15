@@ -47,7 +47,7 @@ function Footer()
       </h5> 
 
       <h5> 
-        <Link to="/signup" className="footer-quick-link">Signup</Link>
+        <Link to="/signup" className="footer-quick-link">signup</Link>
       </h5> 
  
 
@@ -63,7 +63,7 @@ function Footer()
         <img src={ContactImg}  className="direction"/>
          +9110020210210</p>
       <p>
-        <img src={GmailImg}  className="direction"/> Car_Collection500@gmail.com</p>
+        <img src={GmailImg}  className="direction"/> XiaomiCenter500@gmail.com</p>
     </div>
 
     
@@ -74,10 +74,12 @@ function Footer()
        </div>
       
       <input type="email" placeholder="Enter email" className="form-control"/>
-      <input type="text" className="form-control" placeholder="Enter Name"  />
+      <input type="text" className="form-control" placeholder="Any question"  />
       <button type="button" className="btn btn-primary" id="submit-btn">Submit</button>
     </div>
   </div>
+
+
   <hr/>
   
 </div>
