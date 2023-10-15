@@ -111,9 +111,15 @@
         text-align: center;
         margin-top: 20px;
     }
+    .main-title-3:hover{
+        color: red;
+    }
     .main-title-33{
         text-align: center;
         margin-top: 0px;
+    }
+    .main-title-33:hover{
+        color: rgb(234, 14, 14);
     }
     .third-card-container{
         display: flex;
