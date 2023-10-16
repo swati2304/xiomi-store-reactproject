@@ -12,6 +12,8 @@ import Image2 from "./img/image2.webp"
 import Image5 from "./img/image8.jpg"
 import Image6 from "./img/image6.jpg"
 import Image7 from "./img/image7.jpg"
+import Image8 from "./img/image8.jpg"
+
 import Navbar from "./../../components/Navbar/Navbar"
 import Footer from "./../../components/Footer/Footer"
 
@@ -80,7 +82,7 @@ function Smartphone() {
           <button className='btn41-43 btn-42'> Buy Now</button>
           </div>
         <div className='second-card'>
-        <img src={Image9} className='img-1'/>
+        <img src="" className='img-1'/>
           <h4 className='title-txt-1'>Redmi A2 +</h4>
           <p className='txt-1'>Octa Core Processor | Up to 7GB Ram..</p>
           <p className='txt-1'>From ₹15,499</p>
@@ -89,34 +91,34 @@ function Smartphone() {
         </div>
         <div className='second-card-container'>
         <div className='first-card'>
-        <img  src={Image11}className='img-1'/>
+        <img  src="" className='img-1'/>
           <h4 className='title-txt-1'>Redmi Note 12</h4>
           <p className='txt-1'>Super Note. Super Design</p>
           <p className='txt-1'>From ₹11,999</p>
           <button className='btn41-43 btn-42'> Buy Now</button>
         </div>
         <div className='second-card'>
-        <img src={Image10} className='img-1'/>
+        <img src="" className='img-1'/>
           <h4 className='title-txt-1'>Redmi Note 12 Pro+ 5G</h4>
           <p className='txt-1'>200MP + OIS</p>
           <p className='txt-1'>From ₹27,999</p>
           <button className='btn41-43 btn-42'> Buy Now</button>
          </div>
          </div>
-       <h3 className='main-title-3'>Our Services..⭐</h3>
+       <h3 className='main-title-service'>Our Services..⭐</h3>
        <p className='main-title-33'>Trusted. Secure. Reliable</p>
       <div className='third-card-container'>
         <div className='third-card'>
           <h4 className='main-title-3'>Mi Screen Protect</h4>
            <p className='main-title-33'> Screen Protection against Accidental, Liquid Damage<br/>
                Avail 2 Claims Per year</p>
-               <img  src={Image12}className='img-11'/>
+               <img  src="" className='img-11'/>
 
         </div>
         <div className='third-card'>
           <h4 className='main-title-3'>Mi Complete Protect</h4>
           <p className='main-title-33'>Safeguard your smartphone Against Accidental & <br/>Liquid Damages</p>
-          <img  src={Image13}className='img-11'/>
+          <img  src="" className='img-11'/>
         </div>
       </div>
          <Footer/>

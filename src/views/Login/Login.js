@@ -1,28 +1,31 @@
 import React from "react";
 import "./Login.css";
+import Navbar from "./../../components/Navbar/Navbar"
+import Footer from "./../../components/Footer/Footer"
  
 function Login() {
     return (
         <>
+        <Navbar/>
         <div className="containerforlogin">
-            <p className="title">Login Form</p>
-            <form className="App"/>
+            <p className="titles">Login Form</p>
+            <form className="Apps"/>
             
-                <input placeholder="username"  type="text" required />
+                <input className="inputs" placeholder="username"  type="text" required />
                 <br/>
                 
-                <input  placeholder= "email"   type="email" required/>
+                <input className="inputs"  placeholder= "email"   type="email" required/>
                 <br/>
                 
-                <input placeholder="password" type="password"  required/>
+                <input className="inputs" placeholder="password" type="password"  required/>
                 <br/>
                 
             
-                <input type={"submit"} className="button"
+                <input  type={"submit"} className="buttons"
                     style={{ backgroundColor: "black" }} />
             <form/>
             </div>
-            
+            <Footer/>
         </>
     );
 }
