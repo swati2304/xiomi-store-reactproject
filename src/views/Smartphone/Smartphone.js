@@ -56,7 +56,7 @@ function Smartphone() {
       </div>
       <p className='main-title'>MI Phones_📱</p>
       <div className='container'>
-      <Phone img={ImgTablet} price={14000} name="Redmi Note 12 5G"/>
+      <Phone img={ImgTablet} price={14499} name="Redmi Note 12 5G"/>
       <Phone img={Img} price={20999} name="Redmi 12 5G "/>
       <Phone img={Phones} price={19500} name="Redmi Note 12 Pro"/>
       <Phone img={Images} price={16999} name="Xiaomi 12 Pro 5G"/>
@@ -77,14 +77,14 @@ function Smartphone() {
           <h4 className='title-txt-1'>Redmi 12</h4>
           <p className='txt-1'>Octa Core Processor | 200mp + OIS</p>
           <p className='txt-1'>From ₹14,499</p>
-          <button className='btn-22'> Buy Now</button>
+          <button className='btn41-43 btn-42'> Buy Now</button>
           </div>
         <div className='second-card'>
         <img src={Image9} className='img-1'/>
           <h4 className='title-txt-1'>Redmi A2 +</h4>
           <p className='txt-1'>Octa Core Processor | Up to 7GB Ram..</p>
           <p className='txt-1'>From ₹15,499</p>
-          <button className='btn-22'> Buy Now</button>
+          <button className='btn41-43 btn-42'> Buy Now</button>
         </div>
         </div>
         <div className='second-card-container'>
@@ -93,14 +93,14 @@ function Smartphone() {
           <h4 className='title-txt-1'>Redmi Note 12</h4>
           <p className='txt-1'>Super Note. Super Design</p>
           <p className='txt-1'>From ₹11,999</p>
-          <button className='btn-22'> Buy Now</button>
+          <button className='btn41-43 btn-42'> Buy Now</button>
         </div>
         <div className='second-card'>
         <img src={Image10} className='img-1'/>
           <h4 className='title-txt-1'>Redmi Note 12 Pro+ 5G</h4>
           <p className='txt-1'>200MP + OIS</p>
           <p className='txt-1'>From ₹27,999</p>
-          <button className='btn-22'> Buy Now</button>
+          <button className='btn41-43 btn-42'> Buy Now</button>
          </div>
          </div>
        <h3 className='main-title-3'>Our Services..⭐</h3>
