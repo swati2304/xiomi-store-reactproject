@@ -1,10 +1,15 @@
 import "./Footer.css"
 import { Link } from 'react-router-dom'
+import showToast from 'crunchy-toast'
 import MapImg from "../../views/Home/img/ICON/google-maps.png"
 import GmailImg from "../../views/Home/img/ICON/gmail (1).png"
 import ContactImg from "../../views/Home/img/ICON/telephone-call.png"
 
 
+function footerContact()
+{
+   showToast('Thanku For Contacting Us🙏','success', 3000);
+}
 function Footer()
 {
   
@@ -47,7 +52,7 @@ function Footer()
       </h5> 
 
       <h5> 
-        <Link to="/signup" className="footer-quick-link">Signup</Link>
+        <Link to="/signup" className="footer-quick-link">signup</Link>
       </h5> 
  
 
@@ -63,7 +68,7 @@ function Footer()
         <img src={ContactImg}  className="direction"/>
          +9110020210210</p>
       <p>
-        <img src={GmailImg}  className="direction"/> Car_Collection500@gmail.com</p>
+        <img src={GmailImg}  className="direction"/> XiaomiCenter500@gmail.com</p>
     </div>
 
     
@@ -74,10 +79,12 @@ function Footer()
        </div>
       
       <input type="email" placeholder="Enter email" className="form-control"/>
-      <input type="text" className="form-control" placeholder="Enter Name"  />
-      <button type="button" className="btn btn-primary" id="submit-btn">Submit</button>
+      <input type="text" className="form-control" placeholder="Any question"  />
+      <button type="button" className="btn btn-primary" id="submit-btn"onClick={footerContact}>Submit</button>
     </div>
   </div>
+
+
   <hr/>
   
 </div>
