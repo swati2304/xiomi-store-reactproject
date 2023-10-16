@@ -18,10 +18,10 @@ function Signup() {
   
 
   return (
-    <div className='signup-container'>
-      <p className='title'>Signup</p>
-
-    <form  onSubmit={handleSubmit}>
+    <div className='signup-container-1'>
+      <p className='title-main'>Signup</p>
+      <div className='div-middle'>
+     <form  onSubmit={handleSubmit}>
       
      <input  placeholder= 'email' type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
     
@@ -32,7 +32,8 @@ function Signup() {
      <input  placeholder="forgot-password"     type="password" id="forgot-password" value={forgotPassword} onChange={(e) => setforgotPassword(e.target.value)} required />
 
      <button type="submit" className='button'>Sign Up</button>
-    </form>
-    </div>
+     </form>
+     </div>
+     </div>
   );
 }
