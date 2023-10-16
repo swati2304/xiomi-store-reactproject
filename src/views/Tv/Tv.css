@@ -17,7 +17,9 @@
    margin-top: 40px;
    font-size: 50px;
    color: white;
-     
+   padding-left: 40px;
+   padding-top: 150px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .para-text{
     text-align: center;
