@@ -8,13 +8,14 @@
 .buynowContainerCards{
     background-color: aliceblue;
     border-radius: 10px;
-    height: 550px;
+    height: 580px;
     width: 450px;
     box-shadow: 2px 2px 3px 3px rgb(151, 150, 150);
     margin-right: auto;
     margin-left: auto;
     margin-top: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
     padding: 5px;
     text-align: center;
 }
@@ -23,12 +24,12 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
     background: transparent;
-    outline: none !important;
+    outline: none;
     cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
     display:block;
-    width: 109px;
+    width: 120px;
     text-decoration: none;
     border-radius: 10px;
     margin: 0px auto;
@@ -70,6 +71,12 @@
     font-size: 20px;
   }
   .buynowPrice{
-    font-size: 25px;
+    font-size: 28px;
     color: red;
+  }
+  .input-number{
+    width: 200px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 10px;
   }
