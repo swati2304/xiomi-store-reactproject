@@ -7,8 +7,8 @@ function Phone({img,name,price}) {
     <img src={img} className="tablet-images"/>
     <h3  className="description">{name}</h3>
     <p className="description-1">{price}/-</p>
-    <button className="btn-1">Buy Now</button>
-    <button className="btn-1">Add Cart</button>
+    <button className="btn41-43 btn-42">Buy Now</button>
+  
   </div>
 )
 }
