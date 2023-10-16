@@ -83,7 +83,7 @@ const Contact = () => {
 
       <div className='form-control'>
       <label htmlFor="message">Message:</label>
-      <textarea className='text'
+      <textarea className='massage'
         id="message"
         name="message"
         value={formData.message}
