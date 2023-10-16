@@ -21,7 +21,8 @@ import Image13 from "./img/b2.jpg"
 import Image14 from "./img/b3.png"
 import Image15 from "./img/b4.png"
 import Image16 from "./img/cardimage.jpg"
-import Image17 from "./img/a2.png"
+import Image17 from "./img/a2.png";
+
 
 
 
@@ -151,10 +152,7 @@ function Smartphone() {
       <img src={Image17} className='last-img'/>
       
       </div>
-      
-      
-
-    </div>
+       </div>
      
 
   )
