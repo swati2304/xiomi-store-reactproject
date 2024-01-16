@@ -20,7 +20,7 @@ form {
   .email{
     background-color: white;
     color: black;
-    width:450px;
+    width:480px;
     border-radius: 2px;
     padding: 6px ;
     margin-left: 0;
@@ -42,6 +42,7 @@ form {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    margin-left: 0px;
   }
   
   .btn-2 {
@@ -76,6 +77,8 @@ form {
     width: 100%;
     position: relative;
     border: none;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 
@@ -88,8 +91,13 @@ form {
   }
   .Container{
     display: flex;
+    margin: 0;
   }
   .imgofcontact{
-   height: 600px;
-   margin-left: 100px;
+   height: 500px;
+   margin-left: 150px;
+  }
+  .massage{
+    width: 300px;
+    margin-left: 160px;
   }

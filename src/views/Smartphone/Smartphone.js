@@ -21,8 +21,9 @@ import Image13 from "./img/b2.jpg"
 import Image14 from "./img/b3.png"
 import Image15 from "./img/b4.png"
 import Image16 from "./img/cardimage.jpg"
-import Image17 from "./img/a2.png";
-
+import Image17 from "./img/a2.png"
+import Navbar from "./../../components/Navbar/Navbar"
+import Footer from "./../../components/Footer/Footer"
 
 
 
@@ -31,6 +32,7 @@ import Image17 from "./img/a2.png";
 function Smartphone() {
   return (
     <div>
+      <Navbar/>
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -63,7 +65,7 @@ function Smartphone() {
           </button>
         </div>
       </div>
-      <p className='main-title'>MI Phones_📱</p>
+      <p className='main-title'>MI Smartphones📱</p>
       <div className='container'>
       <Phone img={ImgTablet} price={14499} name="Redmi Note 12 5G"/>
       <Phone img={Img} price={20999} name="Redmi 12 5G "/>
@@ -98,34 +100,34 @@ function Smartphone() {
         </div>
         <div className='second-card-container'>
         <div className='first-card'>
-        <img  src={Image11}className='img-1'/>
+        <img  src={Image10} className='img-1'/>
           <h4 className='title-txt-1'>Redmi Note 12</h4>
           <p className='txt-1'>Super Note. Super Design</p>
           <p className='txt-1'>From ₹11,999</p>
           <button className='btn41-43 btn-42'> Buy Now</button>
         </div>
         <div className='second-card'>
-        <img src={Image10} className='img-1'/>
+        <img src={Image11} className='img-1'/>
           <h4 className='title-txt-1'>Redmi Note 12 Pro+ 5G</h4>
           <p className='txt-1'>200MP + OIS</p>
           <p className='txt-1'>From ₹27,999</p>
           <button className='btn41-43 btn-42'> Buy Now</button>
          </div>
          </div>
-       <h3 className='main-title-3'>Our Services..⭐</h3>
+       <h3 className='main-title-service'>Our Services..⭐</h3>
        <p className='main-title-33'>Trusted. Secure. Reliable</p>
       <div className='third-card-container'>
         <div className='third-card'>
           <h4 className='main-title-3'>Mi Screen Protect</h4>
            <p className='main-title-33'> Screen Protection against Accidental, Liquid Damage<br/>
                Avail 2 Claims Per year</p>
-               <img  src={Image12}className='img-11'/>
+               <img src={Image12} className='img-11'/>
 
         </div>
         <div className='third-card'>
           <h4 className='main-title-3'>Mi Complete Protect</h4>
           <p className='main-title-33'>Safeguard your smartphone Against Accidental & <br/>Liquid Damages</p>
-          <img  src={Image13}className='img-11'/>
+          <img  src={Image13} className='img-11'/>
         </div>
       </div>
       <div className='third-card-container'>
@@ -152,7 +154,10 @@ function Smartphone() {
       <img src={Image17} className='last-img'/>
       
       </div>
-       </div>
+      
+      
+< Footer/>
+    </div>
      
 
   )

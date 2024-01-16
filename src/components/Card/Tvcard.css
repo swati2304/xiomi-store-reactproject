@@ -103,8 +103,8 @@
 position: absolute;
 top: 20px;
 left: 10px;
-background-color:#ffe1cc;
-color: #ff6900;
+background-color: rgb(242, 192, 229);
+border: 2px solid rgb(249, 6, 184);
 padding: 2px 10px;
 border: 1px solid;
 border-radius: 5px;

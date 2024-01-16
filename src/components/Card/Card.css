@@ -1,5 +1,10 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
 .tablet-images{
-    height: 280px;
+    height: 260px;
     width: 180px;
     margin: 5px;
     cursor: pointer;
@@ -12,7 +17,7 @@
 .cards-container{
     text-align: center;
     background-color: aliceblue;
-    height: 490px;
+    height: 510px;
     width: 300px;
     box-shadow: 2px 2px 3px 3px rgb(232, 226, 232);
     margin: 0px;
